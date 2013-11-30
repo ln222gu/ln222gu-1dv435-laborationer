@@ -5,9 +5,11 @@ body { background-color: light-grey; }
 ul { list-style: none; }
 .wrapper { margin: 0 auto; height: 800px; width: 100%; background-color: #8EC6DB; }
 .header { height: 200px; background-image: url(pics/border.png); background-position: right bottom ; }
-.content { height: 650px; background-color: #C6DDF5; width: 79%;float: left; }
-.logo { height: 200px; width: 400px; background-color: #ffcc66; background-image: url(pics/logo.png) ;background-repeat: no-repeat ;}
-.menu { height: 30px; background-color: #B29C8A; }
+.content { background-color: #C6DDF5; width: 79%; float: left; }
+.logo { height: 200px; width: 400px; background-image: url(pics/logo1.png) ;background-repeat: no-repeat ;}
+.menu { height: 30px; background-color: #B29C8A;}
+.active { background-color: #E5C9B1;
+}
 #nav {
 	width: 100%;
 	float: left;

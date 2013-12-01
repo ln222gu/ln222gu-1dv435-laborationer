@@ -3,12 +3,25 @@ h1, h2 { font-family: sans-serif; }
 p {text-align: justify; }
 body { background-color: light-grey; }
 ul { list-style: none; }
-.wrapper { margin: 0 auto; height: 800px; width: 100%; background-color: #8EC6DB; }
-.header { height: 200px; background-image: url(pics/border.png); background-position: right bottom ; }
-.content { background-color: #C6DDF5; width: 79%; float: left; }
-.logo { height: 200px; width: 400px; background-image: url(pics/logo1.png) ;background-repeat: no-repeat ;}
-.menu { height: 30px; background-color: #B29C8A;}
-.active { background-color: #E5C9B1;
+
+.header { 
+    height: 200px; 
+    background-image: url(pics/border.png); 
+    background-position: right bottom ; }
+.content { 
+    background-color: #C6DDF5; 
+    width: 79%; 
+    float: left; }
+.logo { 
+    height: 200px; 
+    width: 400px; 
+    background-image: url(pics/logo1.png) ;
+    background-repeat: no-repeat ;}
+.menu { 
+    height: 30px; 
+    background-color: #B29C8A;}
+.active { 
+    background-color: #E5C9B1;
 }
 #nav {
 	width: 100%;
@@ -58,6 +71,20 @@ ul { list-style: none; }
 	width: 100%;     
 }
 
-.video {
-	text-align: top;
+.diplom {
+    float: right;
+    margin: 10px;
+    border: 5px solid #8EC6DB;
+}
+
+.table {
+    margin: 10px;
+}
+
+td {
+    border: 3px solid #8EC6DB;  
+}
+
+th {
+    border: 3px solid #B29C8A ;
 }

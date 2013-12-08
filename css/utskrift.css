@@ -1,10 +1,6 @@
 
 body {margin:0; padding:0; text-align: left ; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
 
-h1 {
-    font-size: 15px;
-}
-
 a:link:after, a:visited:after { content:" [" attr(href) "] "; }
 
 /* Allt som ska bort */

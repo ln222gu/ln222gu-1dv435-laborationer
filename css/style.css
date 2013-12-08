@@ -23,11 +23,44 @@ ul { list-style: none; }
 .active { 
     background-color: #E5C9B1;
 }
+
+
+#home{background:url('pics/sprite.png') 0 4px;
+    background-repeat: no-repeat ;
+}
+#home:hover{background: url('pics/sprite.png') 0 -44px;
+background-repeat: no-repeat ;
+}
+
+
+#lab{background:url('pics/sprite.png') 0 -92px;
+background-repeat: no-repeat ;}
+#lab:hover{background: url('pics/sprite.png') 0 -140px;
+background-repeat: no-repeat ;
+}
+
+
+#present{background:url('pics/sprite.png') 0 -188px;
+background-repeat: no-repeat ;
+}
+#present:hover{background: url('pics/sprite.png') 0 -236px;
+background-repeat: no-repeat ;
+}
+
+
+#kontakt{background:url('pics/sprite.png') 0 -284px;
+background-repeat: no-repeat ;
+}
+#kontakt:hover{background: url('pics/sprite.png') 0 -332px;
+background-repeat: no-repeat ;
+}
+
 #nav {
+    
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
-	padding: 0;
+	padding: 0 10px;
 	background-color: #B29C8A;
 	border-bottom: 1px solid #8EC6DB; 
 	border-top: 1px solid #8EC6DB; }
@@ -36,11 +69,11 @@ ul { list-style: none; }
 #nav li a {
 	font-family: verdana;
 	display: block;
-	padding: 8px 15px;
+	padding: 8px 30px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #000000;
-	border-right: 1px solid #8EC6DB; }
+	border-right: 2px solid #8EC6DB; }
 #nav li a:hover {
 	color: #000;
 	background-color: #E5C9B1; }

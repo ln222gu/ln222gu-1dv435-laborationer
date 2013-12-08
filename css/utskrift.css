@@ -1,9 +1,23 @@
 
-body {margin:0; padding:0; text-align: left ; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+body {margin:0; background-color: white ; padding:0; text-align: left ; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
 
 a:link:after, a:visited:after { content:" [" attr(href) "] "; }
 
 /* Allt som ska bort */
 .header , .sidebar {display:none;}
 
+.content {
+    background-color: white ;
+}
 
+.container {
+    background-color: white ;
+}
+
+.footer {
+    background-color: white;
+}
+
+.sidebar {
+    background-color: white ;
+}

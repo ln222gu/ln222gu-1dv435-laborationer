@@ -1,7 +1,7 @@
 var ultimatesvarofdoom = [];
 function konverteraValuta() {
     var answer = document.getElementById('answer');
-    
+    answer.innerHTML = "";
     var svar;
     var kronor;
     var dollar = 0.15;
@@ -20,8 +20,8 @@ function konverteraValuta() {
     }
     
     ultimatesvarofdoom.push(svar);
-    for(var i = 0; i < ultimatesvarofdoom.length; i += 1) {
-        answer.innerHTML += ultimatesvarofdoom[i];
+    for(var i = ultimatesvarofdoom.length - 1; i > 0; i -= 1) {
+        answer.innerHTML += ultimatesvarofdoom[i].toFixed(2) + "<br>";
 	}
     }
 }

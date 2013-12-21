@@ -9,4 +9,11 @@ function copyDate() {
   }
 }
 
-window.onload = copyDate;
+window.onload = function() {
+    copyDate();
+ var link = document.getElementById("hidetable");
+ var labtable = document.getElementById("labtable");
+ link.onclick = function() {
+     labtable.classList.toggle("hidden");
+ }
+ }

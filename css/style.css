@@ -111,7 +111,7 @@ background-repeat: no-repeat ;
 }
 
 .hidden {
-    display: hidden ;
+    display: none ;
 }
 
 .table {

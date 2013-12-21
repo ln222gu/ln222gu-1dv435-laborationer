@@ -110,6 +110,10 @@ background-repeat: no-repeat ;
     border: 5px solid #8EC6DB;
 }
 
+.hidden {
+    display: hidden ;
+}
+
 .table {
     margin: 10px;
 }

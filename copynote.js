@@ -17,3 +17,4 @@ window.onload = function() {
      labtable.classList.toggle("hidden");
  }
  }
+ 

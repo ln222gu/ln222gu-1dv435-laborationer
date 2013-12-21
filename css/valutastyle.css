@@ -1,0 +1,35 @@
+h1 { color: black; }
+h1, h2 { font-family: sans-serif; }
+p {text-align: justify; }
+body { background-color: light-grey; }
+ul { list-style: none; }
+
+header { 
+    height: 200px; 
+    background-image: url(pics/border.png); 
+    background-position: right bottom ; }
+content { 
+    background-color: #C6DDF5; 
+    width: 79%; 
+    float: left; }
+logo { 
+    height: 200px; 
+    width: 400px; 
+    background-image: url(pics/logo1.png) ;
+    background-repeat: no-repeat ;}
+
+.container {
+    margin: 0 auto;
+	background-color: #8EC6DB;
+	height: auto;
+	width: 1200px ; 
+
+}
+
+footer {
+	clear: both;
+	background-color: #B29C8A;
+	height: auto;
+	min-height: 50px;
+	width: 100%;     
+}

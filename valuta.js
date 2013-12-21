@@ -1,6 +1,6 @@
-window.onload = function() {
+var ultimatesvarofdoom = [];
 function konverteraValuta() {
-    
+    var answer = document.getElementById('answer');
     
     var svar;
     var kronor;
@@ -19,11 +19,13 @@ function konverteraValuta() {
         svar = kronor * dollar;
     }
     
-    
-    document.getElementById('answer').innerHTML=svar.toFixed(2);
+    ultimatesvarofdoom.push(svar);
+    for(var i = 0; i < ultimatesvarofdoom.length; i += 1) {
+        answer.innerHTML += ultimatesvarofdoom[i];
+	}
     }
 }
-
+window.onload = function() {
 var button = document.getElementById("konvertera");
  button.onclick = konverteraValuta;
 }
